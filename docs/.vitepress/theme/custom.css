@@ -1,9 +1,9 @@
 /* .vitepress/theme/custom.css */
 :root {
-  --vp-c-brand-1: #1abc9c;
+  --vp-c-brand-1: #fd79a8;
   --vp-c-brand-2: #16a085;
 
-  --vp-button-brand-bg: #16a085;
+  --vp-button-brand-bg: #fd79a8;
 
   /* NOTE Blocks  */
   --vp-custom-block-tip-bg: #10ac84;
@@ -14,6 +14,11 @@
   --vp-c-danger-2: var(--vp-c-red-2);
   --vp-c-danger-3: var(--vp-c-red-3);
   --vp-c-danger-soft: var(--vp-c-red-soft);*/
+}
+/* Brand Color */
+.txt-b1{
+  font-weight: bolder;
+  color: #fd79a8;
 }
 
 html {
@@ -108,5 +113,5 @@ html {
 
 /* VPImage */
 .VPImage{
-    filter: drop-shadow(5px 5px 25px #1dd1a1);
+    filter: drop-shadow(5px 5px 25px #fd79a8);
 }

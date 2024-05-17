@@ -1,7 +1,7 @@
 // .vitepress/config.js
 export default {
   // site-level options
-  base: "/pinux/",
+  base: "/meu/",
   lang: "en-US",
   title: "Pinux",
   description:
@@ -35,14 +35,14 @@ export default {
       {
         rel: "icon",
         type: "image/x-icon",
-        href: "/pinux/favicon.ico",
+        href: "/meu/cat.png",
       },
     ],
   ],
 
   themeConfig: {
-    siteTitle: "Pinux",
-    logo: "/favicon/small.png",
+    siteTitle: "meu",
+    logo: "/cat.png",
     outline: [1, 2],
     nav: [
       { text: "Home", link: "/linux" },
@@ -69,8 +69,8 @@ export default {
       ],
     },
     footer: {
-      message: "Released under the MIT License.",
-      copyright: "Copyright © 2024-present Piyush",
+      message: "Released under the <a href='#' class='txt-b1'>M I T</a> License.",
+      copyright: "Copyright © 2024-present <span class='txt-b1'>Piyush</span>",
     },
     socialLinks: [
       { icon: "github", link: "https://github.com/vuejs/vitepress" },

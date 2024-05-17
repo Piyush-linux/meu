@@ -2,12 +2,13 @@
 layout: home
 
 hero:
-  name: Pinux
-  text: Become a Linux Ninja
-  tagline: This is my ninja way !
+  name: meu
+  text: Universal Convertor
+  tagline: Convert x to y with ease
   image:
-    src: /logo.png
+    src: /cat.png
     alt: pinux
+    width: 200px
   actions:
     - theme: brand
       text: Get Started
@@ -17,46 +18,22 @@ hero:
       link: https://github.com/vuejs/vitepress
 
 features:
-  - icon: 🪨
-    title: Rock
-    details: Forge a Solid Foundation
-    link: /rock/
-  - icon: 🔥
-    title: Fire
+  - icon: 📐
+    title: Common
+    details: Length
+    link: /length/
+  - icon: ⚖️
+    title: Weight
     details: Ignite Your Expertise
     link: /fire/
-  - icon: 🌊
+  - icon: 🌡️
     title: Water
     details: The Big Ocean began
     link: /water/
-  - icon:
-      🌪️
+  - icon: 🌪️
       # src: /cool-feature-icon.svg
     title: Air
     details: Lorem ipsum...
     link: /air/
 ---
 
-<br/>
-
-::: tip Level 1
-
-This **Information** this level is more than enough to move to the next module
-
-:::
-
-::: warning Level 2
-
-Level 2 : it require your effort to research more and
-
-:::
-
-::: danger Level 3
-
-This is an rabit hole once you completed this level, you have entered the matrix of Linux
-
-> There is no going back -anonymous
-
-:::
-
-<div class='e'></div>
