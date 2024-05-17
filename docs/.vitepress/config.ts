@@ -1,4 +1,6 @@
 // .vitepress/config.js
+import { defineConfig, HeadConfig } from 'vitepress'
+
 export default {
   // site-level options
   base: "/meu/",
@@ -94,4 +96,14 @@ export default {
       provider: "local",
     },
   },
+  async buildEnd(siteConfig) {
+    transformHead: ({ pageData }) => {
+    const head: HeadConfig[] = []
+
+    head.push(['meta', { property: 'og:title', content: pageData.frontmatter.title }])
+    head.push(['meta', { property: 'og:description', content: pageData.frontmatter.description }])
+    
+    return head
+  }
+  }
 };

@@ -1,3 +1,9 @@
+---
+title: My awesome page title
+description: My awesome page description
+---
+
+
 <script setup>
 /*
 1. Get param : ( km-to-m )
@@ -9,6 +15,7 @@
 import Length from '../components/Length.vue';
 
 </script>
+
 
 
 <Length />
