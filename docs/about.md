@@ -10,3 +10,4 @@ Our website is dedicated to demystifying Linux for enthusiasts and beginners, of
 ### Tech
 
 - Vitepress
+

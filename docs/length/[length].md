@@ -1,8 +1,3 @@
----
-title: My awesome page title
-description: My awesome page description
----
-
 
 <script setup>
 /*
@@ -12,10 +7,21 @@ description: My awesome page description
 4. render that data with importing the require component
 */
 
+import { useData } from 'vitepress';
+import { data } from '../data/example.data.js';
 import Length from '../components/Length.vue';
+
+const { params } = useData();
+const response = data.data.filter((x) => {
+    return x.id == params.value.length;
+})
+
+const content = response[0]
+
+
 
 </script>
 
-
+# {{ content.meta.title }}
 
 <Length />

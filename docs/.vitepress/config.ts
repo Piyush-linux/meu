@@ -9,6 +9,13 @@ export default {
   description:
     "Welcome to your linux journey, I P-U will assist you with your journey !",
   head: [
+    //  [
+    //   'script',
+    //   {
+    //     async: true,
+    //     src: 'https://unpkg.com/vue-meta/dist/vue-meta.min.js'
+    //   }
+    // ],
     [
       "link",
       {
@@ -41,13 +48,14 @@ export default {
       },
     ],
   ],
+  // script
 
   themeConfig: {
     siteTitle: "meu",
     logo: "/cat.png",
     outline: [1, 2],
     nav: [
-      { text: "Home", link: "/linux" },
+      { text: "Home", link: "/" },
       { text: "About", link: "/about" },
       { text: "Contribute", link: "/contribute" },
       // {

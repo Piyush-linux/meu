@@ -74,14 +74,17 @@ let convert = ()=>{
     // console.log(select_2.value)
     // console.log(content.id)
 	switch (content.id) {
-		case "km-to-m":
+		
+        case "km-to-m":
             console.log('--- Km to m ')
-			ans.value = km_to_m(inp.value)
-			break;
+			ans.value =  `${km_to_m(inp.value)} ${select_2.value}`;
+			break ;
+
         case "km-to-cm":
             console.log('--- Km to cm ')
             ans.value = `${km_to_cm(inp.value)} ${select_2.value}`
-            break;
+            break ;
+
 		default:
 			break;
 	}
@@ -93,8 +96,6 @@ let convert = ()=>{
 </script>
 <template>
     <div class="">
-        <!-- title -->
-        <h1> {{ content.meta.title }} </h1>
         <!-- content -->
         <h3> {{ content.meta.desc }} </h3>
         <br />
